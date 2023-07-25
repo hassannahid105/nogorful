@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NogorFul</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!--daisy link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- tailwind config -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- coustom css -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: "#095845",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="mb-96">
+    <header>
+      <!-- * nav -->
+      <nav class="md:sticky top-0 z-10 shadow-lg shadow-green-200/50">
+        <div class="navbar bg-base-100 md:px-20 md:py-4">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <label tabindex="0" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </label>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                <li><a>About</a></li>
+                <li><a>Programs</a></li>
+                <li><a>Evidence</a></li>
+                <li><a>Blog</a></li>
+                <li><a>How to help</a></li>
+              </ul>
+            </div>
+            <a class="normal-case text-xl md:text-3xl font-bold"
+              ><span class="text-primary">Nogor</span>Ful</a
+            >
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>About</a></li>
+              <li><a>Programs</a></li>
+              <li><a>Evidence</a></li>
+              <li><a>Blog</a></li>
+              <li><a>How to help</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a class="btn bg-primary text-white px-8">Give Now</a>
+          </div>
+        </div>
+      </nav>
+      <!-- hero section  -->
+      <div
+        class="hero min-h-[calc(100vh-69px)]"
+        style="background-image: url('./images/hero.jpg')"
+      >
+        <div class="hero-overlay bg-opacity-85"></div>
+        <div>
+          <div class="text-white">
+            <div class="max-w p-4">
+              <h1
+                class="mb-4 md:mb-8 text-3xl md:text-5xl font-bold leading-snug"
+              >
+                Changing Destinies: <br />
+                A Brighter Future for <br />
+                Street Children
+              </h1>
+              <p class="mb-5 md:w-[50%]">
+                From Streets to Smiles: Restoring Childhoods Providing Shelter,
+                Education, and Love Be a Guardian Angel - Support Street
+                Children Today
+              </p>
+              <button class="btn border-0 text-white bg-primary px-8">
+                Get Started
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
